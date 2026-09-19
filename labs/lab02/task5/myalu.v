@@ -6,7 +6,7 @@ module myalu(
 );
 
 reg [3:0] onecp,twocp;
-
+ 
 always @(*) begin
     case(op)
         1'b0:
